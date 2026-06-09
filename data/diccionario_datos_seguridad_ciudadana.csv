@@ -1,0 +1,15 @@
+variable,descripcion,uso_modelo
+id_registro,Identificador único del registro sintético.,No usar
+fecha,Fecha del bloque de observación.,No usar directamente
+mes,Mes derivado de la fecha.,Predictora
+dia_semana,Día de la semana en texto.,Predictora
+dia_semana_num,"Día de la semana en formato numérico, donde lunes es 0 y domingo es 6.",Opcional
+hora,Hora del día del bloque de observación.,Predictora
+franja_horaria,"Agrupación de la hora en madrugada, mañana, tarde o noche.",Predictora
+es_fin_semana,Indica si el bloque corresponde a sábado o domingo.,Predictora
+es_feriado,Indica si la fecha corresponde a un feriado simulado.,Predictora
+administracion_zonal,Administración zonal ficticia/agregada del Distrito Metropolitano de Quito.,Predictora
+tipo_incidente,Categoría del incidente de seguridad ciudadana.,Predictora
+intensidad_esperada,Valor interno usado para simular el conteo de incidentes.,No usar
+conteo_incidentes,Número sintético de incidentes en el bloque.,No usar como predictor
+alta_demanda,"Variable objetivo: 1 si el bloque es de alta demanda, 0 caso contrario.",Variable objetivo
